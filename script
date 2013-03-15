@@ -14,5 +14,6 @@ for i in ${filenames[*]}
     if find -r $j -type f -iname $i 
     then    
       grep $text $i >> $outname " "
+    fi
   done
 done
