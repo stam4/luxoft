@@ -7,3 +7,12 @@
 filenames=(file1 file2 file3 file4)
 listdir=(dir1 dir dir3)
 text="find me please"
+outname=output
+
+for i in ${filenames[*]} 
+  for j in ${listdir[*]} 
+    if find -r $j -type f -iname $i 
+    then    
+      grep >> $outname " "
+  done
+done
