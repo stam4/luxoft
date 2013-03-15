@@ -5,7 +5,7 @@
 # outname - имя выходного файла
 
 filenames=(file1 file2 file3 file4)
-listdir=(dir1 dir dir3)
+listdir=(dir1 dir2 dir3)
 text="find me please"
 outname=output
 
