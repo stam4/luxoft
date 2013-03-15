@@ -13,6 +13,6 @@ for i in ${filenames[*]}
   for j in ${listdir[*]} 
     if find -r $j -type f -iname $i 
     then    
-      grep >> $outname " "
+      grep $text $i >> $outname " "
   done
 done
